@@ -79,6 +79,6 @@ img{
     height:500px;
 }
 
-div img.image-2{ width: 400px; height:300px;}
+div img.image-2{ width: 400px; height:300px; position: absolute; right:5%}
 
 
