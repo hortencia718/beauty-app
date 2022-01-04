@@ -68,17 +68,18 @@ a:link{
     position: relative;
 }
 
-.text{position: absolute; padding:12px; color:rgb(165, 83, 35); 
-    top: 17px; left: 18em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 25px;}
+.text{position: absolute; padding:14px; color:rgb(165, 83, 35); 
+    top: 17px; left: 20em; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 25px;}
 
 img{
     margin:8px;
-    border:2px solid rgb(43, 92, 226);
+    border:2px solid rgb(87, 64, 13);
     justify-content: center;
     width: 700px;
     height:500px;
 }
-
-div img.image-2{ width: 400px; height:300px; position: absolute; right:5%}
+/* this places the image next to the main image but to the right and smaller  */
+div img.image-2{ width: 400px; height:300px; 
+    position: absolute; right:50px; top: 40px}
 
 
