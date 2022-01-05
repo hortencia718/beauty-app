@@ -79,7 +79,10 @@ img{
     height:500px;
 }
 /* this places the image next to the main image but to the right and smaller  */
-div img.image-2{ width: 400px; height:300px; 
+    img.image-2{ width: 400px; height:300px; 
     position: absolute; right:50px; top: 40px}
 
-div.sometext{color:crimson; font-family: Verdana, Geneva, Tahoma, sans-serif;text-align: right;display:block;}
+ div.sometext{color:crimson; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:right; display: block; float: right;
+   }
